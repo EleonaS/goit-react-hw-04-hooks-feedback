@@ -47,7 +47,6 @@ function App() {
     }
   };
 
-  //Object.values(this.state).reduce((acc, value) =>
   const countTotalFeedback = () => {
     const feedbacksValues =
       Object.values(buttons);
